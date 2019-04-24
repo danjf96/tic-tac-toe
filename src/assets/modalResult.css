@@ -1,0 +1,57 @@
+p.result{
+    text-align: center;
+    font-size: xx-large;
+    color: green
+}
+p.restart{
+    text-align: center;
+    font-size: large;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .ReactModal__Content{
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .divModal{
+        display: grid!important;
+        margin-top: 50%;
+    }
+    img{
+        width:260px;
+        height: 200px;
+        display:flex;
+        justify-self: center;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .restart{
+        width: 50%;
+        height: 50%;
+        justify-self: center;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1150px){
+    .ReactModal__Content{
+        width: 80%!important;
+        height: 80%!important;
+    }
+    .divModal{
+        display: grid!important;
+    }
+    img{
+        width:260px;
+        height: 200px;
+        display:flex;
+        justify-self: center;
+    }
+    .restart{
+        width: 50%;
+        height: 50px;
+        justify-self: center;
+    }
+}
